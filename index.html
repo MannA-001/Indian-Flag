@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+   .flag{
+    width: 900px;
+    height: 600px;
+    border: 8px solid black;
+   }
+   .top{
+    height: 200px;
+    width: 100%;
+    background-color: #ff9933;
+   }
+   .middle{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+   }
+   .middle > .chakra{
+    position: absolute;
+    left: 350px;
+   }
+   .bottom{
+    height: 200px;
+    width: 100%;
+    background-color: green;
+   }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+ <div class="flag">
+  <div class="top"></div> 
+  <div class="middle">
+    <div class="chakra">
+      <img src="./Ashoka_Chakra.svg.png" alt="ashoka chakra"></imng>
+    </div>
+  </div>
+  <div class="bottom"></div>
+ </div>
+</body>
+
+</html>
